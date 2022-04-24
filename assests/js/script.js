@@ -83,19 +83,18 @@ const getPasswordCriteria = () => {
 
 //create random password section
 const createRandomPassword = (passwordLength, passwordCriteria) => {
-
-  //create an array 
+ 
   const  passwordArray= []
 
-  // for loop for password length
+  // for loop to select input categories from user
   for (let i = 0; i < passwordLength; i += 1) {
+  const randomPasswordGenerate = Math.floor(Math.random() *passwordCriteria);
+
+  }
+ 
 
 
-;
 
-
-
-//DO NOT TOUCH CODE BELOW -STARTER CODE
 
 // main function to generate the random password
 const generatePassword = () => {
@@ -117,6 +116,8 @@ const generatePassword = () => {
   }
 };
 
+//DO NOT TOUCH CODE BELOW -STARTER CODE
+
 // Write password to the #password input
 const writePassword = () => {
   const password = generatePassword();
@@ -124,6 +125,5 @@ const writePassword = () => {
 
   passwordText.value = password;
 };
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
