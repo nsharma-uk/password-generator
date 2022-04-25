@@ -1,15 +1,17 @@
 # password-generator
 
-Modifying starter code to create an application that enables employees, with access to sensitive data, to generate random passwords based on criteria that they’ve selected that provides greater security.
-
 ## Project Summary
 
+This project modifies starter code to create an application that enables employees, with access to sensitive data, to generate random passwords based on criteria that they’ve selected and which provides greater security.
 <br>
 <br>
 
-## Deployed Page
+## Deployed Page and Repository
 
 https://nsharma-uk.github.io/password-generator/
+<br>
+<br>
+https://github.com/nsharma-uk/password-generator
 <br>
 <br>
 
@@ -33,7 +35,7 @@ SO THAT I can create a strong password that provides greater security
 <br>
 <br>
 
-## Project Details - User Story
+## Project Details - Acceptance Criteria
 
 GIVEN I need a new, secure password
 
@@ -67,7 +69,6 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 <br>
-
 ## Screenshot of deployed webpage
 
 <br>
@@ -77,7 +78,7 @@ THEN the password is either displayed in an alert or written to the page
 <br>
 <b>
 ## Authored by
-
+<br>
 N Sharma
 <br>
 <br>
