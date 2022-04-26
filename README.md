@@ -8,10 +8,10 @@ This project modifies starter code to create an application that enables employe
 
 ## Deployed Page and Repository
 
-https://nsharma-uk.github.io/password-generator/
-<br>
-<br>
-https://github.com/nsharma-uk/password-generator
+[Deployed page](https://nsharma-uk.github.io/password-generator/)
+
+
+[Repository](https://github.com/nsharma-uk/password-generator)
 <br>
 <br>
 
