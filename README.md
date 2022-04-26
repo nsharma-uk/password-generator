@@ -69,15 +69,15 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 <br>
+
 ## Screenshot of deployed webpage
 
+![screenshot of deployed page](./assests/images/passgendeployedpage.png)
 <br>
 <br>
-![screenshot of deployed page] (./assests/images/passgendeployed.png)
 
-<br>
-<b>
 ## Authored by
+
 <br>
 N Sharma
 <br>
