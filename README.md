@@ -70,10 +70,26 @@ THEN the password is either displayed in an alert or written to the page
 
 <br>
 
-## Screenshot of deployed webpage
+## Screenshots
+
+Deployed page
 
 ![screenshot of deployed page](./assests/images/passgendeployedpage.png)
 <br>
+<br>
+Prompt asking for input of chosen password length
+
+![Prompt box asking for password length](./assests/images/firstpromptbox.png)
+<br>
+<br>
+Prompt asking if user wants lowercase in their password
+
+![Prompt box asking if want lowercase in password](./assests/images/lowercase.png)
+
+Alert message telling user that they need to select at least one criteria.
+
+![Prompt box asking for password length](./assests/images/oops.png)
+
 <br>
 
 ## Authored by
