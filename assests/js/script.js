@@ -1,8 +1,4 @@
-// Assignment Code
-
 const generateBtn = document.querySelector("#generate");
-
-//DO NOT TOUCH ABOVE - STARTER CODE
 
 //allowed values in password
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -18,17 +14,16 @@ const getPasswordLength = () => {
 
   //change string to number
   const numericPasswordLength = parseInt(passLength, 10);
-  console.log(typeof numericPasswordLength);
 
   //Checking that user input is a number
   const isNumber = Number.isInteger(numericPasswordLength);
-  console.log(isNumber);
 
   //if password length does not equal between 8 and 128, user gets an alert
   if (numericPasswordLength < 8 || numericPasswordLength > 128 || !isNumber) {
     alert(
       "Oops! Something went wrong.  Please re-enter password length of between 8 and 128 characters"
     );
+    return getPasswordLength();
   } else {
     return numericPasswordLength;
   }
@@ -77,10 +72,13 @@ const getPasswordCriteria = () => {
   //if user inputs yes
   if (symbolCriteria) {
     criteriaArray.push(symbols);
+  }
+  if (criteriaArray.length > 0) {
+    return criteriaArray;
   } else {
     alert("Please select at least one criteria to include in your password.");
   }
-  return criteriaArray;
+  return getPasswordCriteria();
 };
 
 //create random password section
@@ -109,8 +107,6 @@ const createRandomPassword = (passwordLength, passwordCriteria) => {
   }
   return passwordArray.join("");
 };
-
-//STARTER CODE BELOW
 
 // main function to generate the random password
 const generatePassword = () => {
